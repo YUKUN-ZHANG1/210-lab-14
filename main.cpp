@@ -1,7 +1,11 @@
+// COMSC-210 | Lab 14: Color Class | Yukun Zhang
+// IDE used: Visual Studio Code
+
 #include <iostream>
 #include <iomanip>
 #include "Color.cpp"
 
+// Main function to test the Color class
 int main(){
     // Creating Color objects
     Color color1(255, 0, 0);
