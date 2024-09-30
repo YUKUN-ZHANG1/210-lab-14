@@ -4,6 +4,11 @@
 using namespace std;
 
 class Color{
+    private:    
+    int redValue;
+    int greenValue;
+    int blueValue;
+    
     public:
     Color(int redValue = 0, int greenValue = 0, int blueValue = 0) 
         :redValue(redValue), greenValue(greenValue), blueValue(blueValue){}
@@ -21,9 +26,4 @@ class Color{
         cout<<"G :"<<setw(4)<<greenValue<<endl;
         cout<<"B :"<<setw(4)<<blueValue<<endl;
     }
-
-    private:    
-    int redValue;
-    int greenValue;
-    int blueValue;
 };
